@@ -1,28 +1,48 @@
 body {
     font-family: 'Lato', sans-serif;
 
-box-sizing:border-box;
+html {
+  box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
     
-
 /*---Utility Styles---*/
 
 .container{
     width:80vw;
     margin:30px auto;
     max-width:600px;
-    margin:auto;
+}
+
+img.right{
+    float:right;
+    margin:10px 0 10px 20px;
+    border: 1px solid #c0c0c0;
+    padding:5px;
+
+img.left{
+    float:left;
+    margin:10px 0 10px 20px;
+    border: 1px solid #c0c0c0;
+    padding:5px;
+}
+
+.img-center{
+    display:block;
+    margin:20px auto;
+    border: 1px solid #c0c0c0;
+    padding:5px;
 }
 
 /*Responsive Images---*/
 
 img{
     max-width:100%;
+    height:auto;
 }
 
 /* --- Global Stlyes --- */
@@ -37,6 +57,7 @@ header.primary{
     text-align:center;
     color:#ffffff;
     text-shadow:2px 2px #000000;
+    /*longform*/
     padding:40px;
     padding-top:40px;
     padding-right:40px;
@@ -46,12 +67,8 @@ header.primary{
     padding: 40px 40px 20px 40px;
         /* --- Shorhand T,R,B,L ---*/
 
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%239C92AC' fill-opacity='0.38'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ffffff' fill-opacity='0.1' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-
-
-
 
 
 header.primary h1{
@@ -119,7 +136,7 @@ section#content{
 
 #content article.post{
     width:30%;
-    box-shadow:0 4px 8px rgba;(0,0,0,.4);
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
     padding:10px;
     transition:.6s;
     font-size:.8rem;
@@ -177,6 +194,9 @@ footer#colophon{
     background-color:#b3638b;
 }
 
+/*SVG Background */
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ffffff' fill-opacity='0.1' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
 #colophon:h6{
     padding:20px;
     margin:0;
@@ -186,14 +206,101 @@ footer#colophon{
     text-transform:uppercase;
 }
 
+#additional-elements h2{
+color:#3b638b;
+border-bottom:1px dotted #c0c0c0;
+}
+
+#additional-elements a:link, #additional-elements a:visited{
+  color:#3b638b;
+}
+
+#additional-elements a:hover, #additional-elements a:active{
+  text-decoration:none;
+}
+
+#additional-elements p{
+  line-height:1.5;
+}
+
+
+#additional-elements h3{
+border-left:5px solid #3b638b;
+padding:5px 10px;
+}
+
+table{
+    wdith:100%;
+    bordeer: 1px solid #c0c0c0;
+    border-collapse:collapse;
+}
+
+caption{
+    font-weight:bold;
+    font-size:1.5rem;
+    margin:10px;
+}
 
 
 
+th {
+    background:#3b638b;
+    color:#ffffff;
+    text-align:left;
+    padding:10px;
+}
 
+td {
+    border:1px solid #c0c0c0;
+    padding:5px;
+}
+
+tr:nth-chil(even){
+    background:#DCDCDC
+}
+
+tr:hover{
+    background:lightsteelblue;
+}
+
+#additional-elements ol{
+    list-style-type:upper-roman;
+}
+
+#additional-elemnets ul ul{
+    background:red;
+    list-style-type:square;
+}
+
+#additional-elements dl{
+ line-height:2.5;   
+}
+
+#additional-elements dt{
+    font-weight:bold;
+    font-size:1.2rem;
+    margin-top:;
+}
+
+#additional-elements dd{
+    margin:0;
+}
+
+dd + dt{
+    margin-top:20px
+}
+
+#additional-elements blockquote{
+    background-color:rgba(0,0,0,.1);
+    padding:20px;
+    border-top:2px solid #c0c0c0;
+    border-bottom:2px solid #c0c0c0;
+}
 /*---Media Inquiries---*/
 
 
 @media screen and (max-width:600px){
+   
     header.primary nav ul{
         flex-direction:column;
         margin:0px auto;
