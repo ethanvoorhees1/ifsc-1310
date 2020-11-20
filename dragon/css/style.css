@@ -1,0 +1,61 @@
+/* Colors
+
+
+
+
+*/
+
+/* ---Box Sizing--- */
+html {
+    box-sizing:border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+/* ---Utility Styles--- */
+
+.container {
+    width:80vw;
+    margin:40px auto;
+    max-width:900px;
+}
+
+.img-right{
+    float:right;
+    margin:10px 0 10px 20px;
+    border:1px solid #c0c0c0;
+    padding:5px;
+}
+
+.img-left{
+    float:left;
+    margin:10px 20px 10px 0;
+    border:1px solid #c0c0c0;
+    padding:5px;
+}
+
+.img-center{
+   display:block;
+   margin:20px auto;
+   border:1px solid #c0c0c0;
+   padding:5px;
+}
+
+/*---Responsive Images---*/
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+/* ---Global Styles--- */
+
+/* ---Content--- */
+#content table {
+    width:10px;
+    display:flex;
+    justify-content:space-around;
+}
