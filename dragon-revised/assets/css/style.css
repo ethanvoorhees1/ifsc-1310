@@ -224,18 +224,23 @@ section#articles h2 {
 
 .gallery {
 	background-color: #CCC;
-	width: 730px;
-	margin-top: 40px;
-	margin-right: 600px;
-	margin-left: 600px;
+	max-width: 730px;
 	border: 1px solid #999;
-	height: 516px;
+	height: 525px;
 	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
 	border-radius: 4px;
+	margin:150px;
+	padding:10px;
+	display:flex;
+	justify-content:center;
+	margin-left:550px;
+	margin-right:550px;
 }
+
 .gallery img {
-	margin: 15px;
+	margin:15px;
 }
+
 
 
 /* --- Aside --- */
