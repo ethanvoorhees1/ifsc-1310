@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+<!doctype html>
 
-You can use the [editor on GitHub](https://github.com/ethanvoorhees1/ifsc-1310/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ethanvoorhees1/ifsc-1310/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IFSC 1310 | Ethan Voorhees</title>
+  <meta name="description" content="Keyword Rich Description" />
+  <meta name="author" content="Your Name" />
+</head>
+<body>
+  <h1>Ethan Voorhees</h1>
+  <ul>
+    <li><a href="prototype-html/index.html">Prototype HTML</a></li>
+    <li><a href="css-demo/index.html">CSS Demo</li>
+    <li><a href="flexbox-froggy/flexbox.png">Flexbox Froggy</li>
+    <li><a href="bear-penalty/bear-pk.jpg">Gravit Submission</a></li>
+    <li><a href="dragon/index.html">SpaceX Dragon</a></li>
+    <li><a href="cycle/index.html">JS Cycle</a></li>
+    <li><a href="dragon-revised/index.html">SpaceX Dragon Revised</a></li>
+    <li><a href="cycle/index.html">JS Cycle Slideshow</a></li>
+    <ul>
+      <li><a href="positioning-lab/float-1.html">Float 1</a></li>
+      <li><a href="positioning-lab/float-2.html">Float 2</a></li>
+      <li><a href="positioning-lab/absolute-1.html">Absolute 1</a></li>
+      <li><a href="positioning-lab/absolute-2.html">Absolute 2</a></li>
+    </ul>
+  </ul>
+</body>
+</html>
